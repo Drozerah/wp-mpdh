@@ -523,13 +523,14 @@ a:hover {
 /* =Header
 ----------------------------------------------- */
 
+/* Modification 02.12.09 drozerah */
 #branding {
 	/* border-top: 2px solid #bbb; */
 	padding-bottom: 10px;
 	position: relative;
 	z-index: 9999;
 }
-/* Modification 02/12.09 drozerah */
+/* Modification 02.12.09 drozerah */
 #site-title {
 	/* margin-right: 270px; */
 	text-align: center;
@@ -547,7 +548,7 @@ a:hover {
 #site-title a:active {
 	color: #1982d1;
 }
-/* Modification 02/12.09 drozerah */
+/* Modification 02.12.09 drozerah */
 #site-description {
 	color: #7a7a7a;
 	font-size: 18px;
@@ -798,7 +799,7 @@ a:hover {
 	margin: 0 0 .8125em;
 }
 
-/* modified title size in article */
+/* Modification 09.12.09 drozerah */
 .entry-content h1 strong,
 .entry-content h2 strong{
 	font-size: 18px;
