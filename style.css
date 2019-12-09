@@ -797,6 +797,13 @@ a:hover {
 	font-weight: bold;
 	margin: 0 0 .8125em;
 }
+
+/* modified title size in article */
+.entry-content h1 strong,
+.entry-content h2 strong{
+	font-size: 18px;
+}
+
 .entry-content h3,
 .comment-content h3 {
 	font-size: 10px;
