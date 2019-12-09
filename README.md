@@ -3,6 +3,6 @@
 ### History:
 
 - 09-12-2019
-- - modify articles h1 & h2
+  - modify articles h1 & h2
 - 02-12-2019
-- - modify branding element
+  - modify branding element
