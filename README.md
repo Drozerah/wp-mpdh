@@ -2,7 +2,7 @@
 
 ### History:
 - 29-04-2020
-  - updload styles.css
+  - updload style.css
 - 09-12-2019
   - modify articles h1 & h2
 - 02-12-2019
