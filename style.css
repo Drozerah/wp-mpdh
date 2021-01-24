@@ -574,17 +574,19 @@ a.assistive-text:focus,
 
 /* =Menu
 -------------------------------------------------------------- */
-
+/* Modification 24.01.21 drozerah */
 #access {
-	background: #222; /* Show a solid color for older browsers */
-	background: -moz-linear-gradient(#252525, #0a0a0a);
-	background: -o-linear-gradient(#252525, #0a0a0a);
-	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#252525), to(#0a0a0a)); /* older webkit syntax */
-	background: -webkit-linear-gradient(#252525, #0a0a0a);
-	-webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
-	-moz-box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
+	/*background: #222;  Show a solid color for older browsers */
+	/* background: -moz-linear-gradient(#252525, #0a0a0a);
+	background: -o-linear-gradient(#252525, #0a0a0a); */
+	/*background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#252525), to(#0a0a0a));  older webkit syntax */
+	/* background: -webkit-linear-gradient(#252525, #0a0a0a); */
+	/* -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px; */
+	/* -moz-box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
 	box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
-	clear: both;
+	clear: both; */
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
 	display: block;
 	float: left;
 	margin: 0 auto 6px;
@@ -601,7 +603,9 @@ a.assistive-text:focus,
 	position: relative;
 }
 #access a {
-	color: #eee;
+	/* color: #eee; */
+	color: #333;
+	font-weight: 600;
 	display: block;
 	line-height: 3.333em;
 	padding: 0 1.2125em;
